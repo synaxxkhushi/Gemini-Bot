@@ -53,11 +53,11 @@ HELP_TEXT = """--**More Help**--
 
 ABOUT_TEXT = """**About Me**
 
-- **Bot :** `Gemini Bot`
-- **Developer :** [GitHub](https://github.com/FayasNoushad) | [Telegram](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Gemini-Bot)
-- **Language :** [Python 3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)"""
+➩ **𝐁𝐨𝐭 🇮🇳 :** `ʀᴇᴍɪɴɪ ᴀɪ sʏɴᴀx 🦄`
+➩ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ☘️ :** [ɪɴsᴛᴀɢʀᴀᴍ ](https://instagram.com/sanatanisynax) | [ᴛᴇʟᴇɢʀᴀᴍ ](https://telegram.me/synaxbots)
+➩ **𝐒𝐨𝐮𝐫𝐜𝐞 :** [ᴄʟɪᴄᴋ ᴋʀ 🐰](https://t.me/synaxnetwork)
+➩ **𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 :** [ᴘʏᴛʜᴏɴ 3 🦜](https://python.org)
+➩ **𝐋𝐢𝐛𝐫𝐚𝐫𝐲 :** [ᴘʏʀᴏɢʀᴀᴍ 🌸](https://pyrogram.org)"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
