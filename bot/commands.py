@@ -5,15 +5,14 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-START_TEXT = """Hello {},
-I am a gemini ai bot.
+START_TEXT = """ʜᴇʟʟᴏ {},
+ɪ ᴀᴍ ᴀ ɢᴇᴍɪɴɪ ᴀɪ ʙᴏᴛ 🧸❤️
 
-I can generate (text type) answers using your text (question/query) \
-and images using the gemini api.
+ɪ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ( ᴛᴇxᴛ ᴛʏᴘᴇ ) ᴀɴsᴡᴇʀs ᴜsɪɴɢ ʏᴏᴜʀ ᴛᴇxᴛ ( ǫᴜᴇsᴛɪᴏɴ /ǫᴜᴇʀʏ ) ᴀɴᴅ ɪᴍᴀɢᴇs ᴜsɪɴɢ ᴛʜᴇ ɢᴇᴍɪɴɪ ᴀᴘɪ 🐰.
 
-Click help for more..."""
+ᴄʟɪᴄᴋ ʜᴇʟᴘ ғᴏʀ ᴍᴏʀᴇ 🌸"""
 
-HELP_TEXT = """--**More Help**--
+HELP_TEXT = """--**𝐌𝐨𝐫𝐞 𝐇𝐞𝐥𝐩**--
 
 **In Private (text only):**
 - Just send me question as text
@@ -51,7 +50,7 @@ HELP_TEXT = """--**More Help**--
 /delete_api: To delete your Gemini API Key
 """
 
-ABOUT_TEXT = """**About Me**
+ABOUT_TEXT = """**𝐀𝐛𝐨𝐮𝐭 𝐌𝐞**
 
 ➩ **𝐁𝐨𝐭 🇮🇳 :** `ʀᴇᴍɪɴɪ ᴀɪ sʏɴᴀx 🦄`
 ➩ **𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ☘️ :** [ɪɴsᴛᴀɢʀᴀᴍ ](https://instagram.com/sanatanisynax) | [ᴛᴇʟᴇɢʀᴀᴍ ](https://telegram.me/synaxbots)
@@ -62,12 +61,12 @@ ABOUT_TEXT = """**About Me**
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('🌷ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🧸 ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('♨️ ᴄʟᴏsᴇ', callback_data='close')
         ],
         [
-            InlineKeyboardButton('Feedback', url='https://telegram.me/FayasNoushad')
+            InlineKeyboardButton('💬 ғᴇᴇᴅʙᴀᴄᴋ', url='https://telegram.me/synaxnetwork')
         ]
     ]
 )
@@ -75,9 +74,9 @@ START_BUTTONS = InlineKeyboardMarkup(
 HELP_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('About', callback_data='about'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('☣️ ʜᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('🧸 ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('♨️ ᴄʟᴏsᴇ', callback_data='close')
         ]
     ]
 )
@@ -85,9 +84,9 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 ABOUT_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Home', callback_data='home'),
-            InlineKeyboardButton('Help', callback_data='help'),
-            InlineKeyboardButton('Close', callback_data='close')
+            InlineKeyboardButton('☣️ ʜᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('🌷ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('♨️ ᴄʟᴏsᴇ', callback_data='close')
         ]
     ]
 )
