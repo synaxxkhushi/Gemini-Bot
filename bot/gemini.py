@@ -14,7 +14,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Feedback', url='https://telegram.me/FayasNoushad')
+            InlineKeyboardButton('Feedback', url='https://telegram.me/synaxnetwork')
         ]
     ]
 )
